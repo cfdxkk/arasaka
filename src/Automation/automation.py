@@ -9,26 +9,26 @@ from Common.setInterval import setInterval
 moveAroundWorker = None
 
 def moveAround():
-    # 这里放你的pyautogui相关代码
-		pyautogui.keyDown('w')
-		time.sleep(2)
-		pyautogui.keyUp('w')
-		time.sleep(1)
+	# 这里放你的pyautogui相关代码
+	pyautogui.keyDown('w')
+	time.sleep(2)
+	pyautogui.keyUp('w')
+	time.sleep(1)
 
-		pyautogui.keyDown('a')
-		time.sleep(2)
-		pyautogui.keyUp('a')
-		time.sleep(1)
+	pyautogui.keyDown('a')
+	time.sleep(2)
+	pyautogui.keyUp('a')
+	time.sleep(1)
 
-		pyautogui.keyDown('s')
-		time.sleep(2)
-		pyautogui.keyUp('s')
-		time.sleep(1)
+	pyautogui.keyDown('s')
+	time.sleep(2)
+	pyautogui.keyUp('s')
+	time.sleep(1)
 
-		pyautogui.keyDown('d')
-		time.sleep(2)
-		pyautogui.keyUp('d')
-		time.sleep(1)
+	pyautogui.keyDown('d')
+	time.sleep(2)
+	pyautogui.keyUp('d')
+	time.sleep(1)
 
 def startMoveAround():
 	time.sleep(5)
